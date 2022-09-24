@@ -15,7 +15,7 @@
         type: 'string',
         required: false,
         message: '',
-        default: 'My Awesome Project'
+        default: 'My Nuxt3 + Elemet Plus Project'
       },
       author: {
         type: 'string',

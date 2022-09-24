@@ -1,14 +1,42 @@
-{{ name }}
-===
-> Your README Description!
+# Nuxt 3 Minimal Starter
 
-{{ description }}
+Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
-```
+## Setup
+
+Make sure to install the dependencies:
+
 ```bash
-npm install -g @vue/cli
-# OR
-yarn global add @vue/cli
-# Then
-vue init do-ockhyun/sample-template sample-vue
+# yarn
+yarn install
+
+# npm
+npm install
+
+# pnpm
+pnpm install --shamefully-hoist
 ```
+
+## Development Server
+
+Start the development server on http://localhost:3000
+
+```bash
+npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
